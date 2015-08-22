@@ -71,8 +71,7 @@ body {
 	padding-bottom: 30px;
 }
 .row {
-	margin-right: 0px;
-	margin-left: -15px;
+
 }
 .modal-header {
 	background: #34b1c4;
@@ -91,7 +90,7 @@ body {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #38b5c9;
+  color: #3fa9f5;
   background-color: #fff;
   
   
@@ -108,14 +107,14 @@ body {
 	color: #666;
 }
 .navbar-brand .fa {
-	color: #38b5c9;
+	color: #3fa9f5;
 }
 .navbar-toggle {
 	border-color: transparent;
 	border: 0px solid transparent;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: #38b5c9;	
+	color: #3fa9f5;	
 }
 a img {
 	background: white;
@@ -126,7 +125,7 @@ a img {
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
 	font-size: 1vw;
-	color: #fff;
+	color: black;
 }
 h2 {
 	font-size: 34px;
@@ -271,47 +270,32 @@ a:before, a:after {
 }
 #about {
 	background: #fff;
-	padding-top: 80px;
 	padding-right: 0;
 	padding-left: 0;
-	padding-bottom: 60px;
 }
 #about img {
 	margin-top: 0;
 }
 #services {
-	background: url(../img/baby.png) no-repeat center center fixed;
+	background-color:#f2f2f2;
 	padding: 60px 0;
 	text-align: center;
 	background-size: cover;
 }
 #services .fa {
-	color: #c0ed5d;
+	color: black;
 }
-#services hr {
-	display: block;
-	height: 3px;
-	border: 0;
-	margin: 3em 0;
-	padding: 0;
-	background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
-	background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
-	background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
-	background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
-	width: 50%;
-	left: 25%;
-	position: relative;
-	border: none;
+
 }
 #services p {
 	text-align: center;
-	color: #fff;
+	color: black;
 }
 #services H2 {
-	color: #fff;
+	color: black;
 }
 #services H3 {
-	color: #fff;
+	color: black;
 }
 #team {
 	background: url(../img/bg.jpg) no-repeat center center fixed;
@@ -382,14 +366,14 @@ a:before, a:after {
 	padding: 30px 0;
 }
 #contact .fa {
-	color: #3ab7cb;
+	color: #3fa9f5;
 	margin-bottom: 10px;
 }
 #contact .btn {
 	font-weight: 500;
 	font-size: 18px;
 	margin-top: 50px;
-	background-color: #3ab7cb;
+	background-color: #3fa9f5;
 	color: #fff;
 	border: 0;
 }
@@ -452,7 +436,7 @@ a:before, a:after {
 	border-bottom: 1px dotted;
 }
 #footerwrap span.copyright a:hover {
-	color: #3ab7cb;
+	color: #3fa9f5;
 	text-decoration: none;
 }
 #footerwrap h4 {
@@ -467,7 +451,7 @@ ul.social-buttons li a {
 	color: #999;
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
-	color: #3ab7cb;
+	color: #3fa9f5;
 }
 /* ==========================================================================
    Box Sections
