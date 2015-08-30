@@ -453,6 +453,18 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
 	color: #3fa9f5;
 }
+
+.persistent-banner {
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	z-index: 7000;
+	background: #990000;
+}
+
+.committee-apply {
+	color: #fff;
+}
 /* ==========================================================================
    Box Sections
    ========================================================================== */
