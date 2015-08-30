@@ -337,6 +337,11 @@ a:before, a:after {
 #portfolio .btn-default {
 	border: 0;
 }
+.persistent-banner .btn-default {
+	background-color: #990000;
+	color: #fff;
+	border:none;
+}
 #contact {
 	background: #fff;
 	padding: 60px 0;
