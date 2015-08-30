@@ -440,10 +440,12 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	position: fixed;
 	z-index: 7000;
 	background: #990000;
+	height: 3vw;
 }
 
 .committee-apply {
 	color: #fff;
+	font-weight: 700;
 }
 /* ==========================================================================
    Box Sections
