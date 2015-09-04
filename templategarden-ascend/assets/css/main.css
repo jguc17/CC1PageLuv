@@ -300,13 +300,13 @@ a:before, a:after {
 }
 #team h4 {
 	color: #fff;
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 1250px) {
 		body{
-			font-size: 18px;
+			font-size: 16px;
 		}
 	}
 
-	@media screen and (min-width: 481px) {
+	@media screen and (min-width: 1251px) {
 		body{
 			font-size: 1vw;
 		}
