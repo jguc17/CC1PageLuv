@@ -132,9 +132,15 @@ h2 {
 	color: #666;
 	font-weight: 500;
 }
+#team h2 {
+	color: #fff;
+}
 h3 {
 	font-size: 24px;
 	font-weight: 500;
+}
+h4 {
+	font-size: 16px;
 }
 /* Paragraph & Typographic */
 p {
@@ -298,20 +304,7 @@ a:before, a:after {
 	position: relative;
 	border: none;
 }
-#team h4 {
-	color: #fff;
-	@media screen and (max-width: 1250px) {
-		body{
-			font-size: 16px;
-		}
-	}
 
-	@media screen and (min-width: 1251px) {
-		body{
-			font-size: 1vw;
-		}
-	}
-}
 #team p {
 	color: #fff;
 }
@@ -319,7 +312,20 @@ a:before, a:after {
 	padding-top: 10px;
 	color: #fff;
 	font-weight:bold;
+
+	@media screen and (max-width: 1250px) {
+		body{
+			font-size: 30px;
+		}
+	}
+
+	@media screen and (min-width: 1251px) {
+		body{
+			font-size: 30px;
+		}
+	}
 }
+
 #team p.large {
 	margin-top: 60px;
 	margin-bottom: 30px;
@@ -340,6 +346,10 @@ a:before, a:after {
 }
 #team .fa:hover {
 	background-color: #2ea0b1;
+}
+
+#execTitle {
+	color:#fff;
 }
 
 .col-lg-3.centered {
