@@ -92,8 +92,8 @@ body {
 .navbar-default .navbar-nav > .active > a:focus {
   color: #3fa9f5;
   background-color: #fff;
-  
-  
+
+
 }
 .navbar-default {
 	background-color: #fff;
@@ -114,7 +114,7 @@ body {
 	border: 0px solid transparent;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: #3fa9f5;	
+	color: #3fa9f5;
 }
 a img {
 	background: none;
@@ -222,6 +222,12 @@ a:before, a:after {
 	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
 	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
+
+#appPitch {
+	font-size: 1vw;
+	text-align: left;
+}
+
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
@@ -471,7 +477,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	position: fixed;
 	z-index: 7000;
 	background: #990000;
-	height: 3vw;
+	height: 5vw;
 }
 
 .committee-apply {
@@ -507,7 +513,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	width: 100%;
 	display: block;
 	position: relative;
-	
+
 }
 .grid figcaption {
 	position: absolute;
